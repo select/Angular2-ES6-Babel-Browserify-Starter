@@ -18,13 +18,12 @@ and we do not want to use 2 languages.
 ```
 npm install -g gulp
 npm install
-gulp dist
 npm start
 ```
 
 To contiously build JS and CSS code use
 ```
-gupl watch
+gulp watch
 ```
 
 ## Contributing
