@@ -4,6 +4,8 @@ Here is a list of all the tools I use for this starter and short comments why I 
 
 - **Angular2** - because Angular1 is soon deprecated, gotta move on.
 - **ES6** - We have a server written in JavaScript, we did not want to introduce another language.
+- **Babel** - Seems to have to best ES6 support currently.
+- **Browserify/Babelify** - it's popular ?
 - **Gulp** - I was using Grunt so far but I read Gulp is more readable.
 - **SASS** - yes SASS not SCSS, because SASS is better to read.
 - **Foundation** - minmal, has SCSS files ... you need somethign to start with.
