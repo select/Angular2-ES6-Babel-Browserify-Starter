@@ -1,4 +1,4 @@
-# Angular 2 + ES6 + SASS starter
+# Angular 2 + ES6 + SASS
 
 Here is a list of all the tools I use for this starter and short comments why I use these tools.
 
@@ -16,6 +16,7 @@ and we do not want to use 2 languages.
 ## Usage
 
 ```
+npm install -g gulp
 npm install
 gulp dist
 npm start
