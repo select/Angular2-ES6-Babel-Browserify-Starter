@@ -42,7 +42,7 @@ Getting this setup was not as straight forward as I hoped it would be. After sea
 I realized that nobody has published this yet, that's why I'd like to share it with you.
 
 
-This setup ist not perfect yet and I hope can imporve it over time.
+This setup ist not perfect yet and I hope I can imporve it over time.
 
 ## Credits
 
