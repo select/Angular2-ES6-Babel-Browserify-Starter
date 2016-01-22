@@ -1,0 +1,125 @@
+// * Foundation for Sites by ZURB
+// * Version 6.1.1
+// * foundation.zurb.com
+// * Licensed under MIT Open Source
+
+body
+  background: #fff
+// Sass utilities
+@import 'util/util'
+
+// Global variables and styles
+@import 'global'
+
+// Components
+@import 'grid/grid'
+@import 'typography/typography'
+@import 'forms/forms'
+@import 'components/visibility'
+@import 'components/float'
+@import 'components/button'
+@import 'components/button-group'
+@import 'components/accordion-menu'
+@import 'components/accordion'
+@import 'components/badge'
+@import 'components/breadcrumbs'
+@import 'components/callout'
+@import 'components/close-button'
+@import 'components/drilldown'
+@import 'components/dropdown-menu'
+@import 'components/dropdown'
+@import 'components/flex-video'
+@import 'components/label'
+@import 'components/media-object'
+@import 'components/menu'
+@import 'components/off-canvas'
+@import 'components/orbit'
+@import 'components/pagination'
+@import 'components/progress-bar'
+@import 'components/reveal'
+@import 'components/slider'
+@import 'components/sticky'
+@import 'components/switch'
+@import 'components/table'
+@import 'components/tabs'
+@import 'components/title-bar'
+@import 'components/top-bar'
+@import 'components/thumbnail'
+@import 'components/tooltip'
+
+=foundation-everything($flex: false)
+  +foundation-global-styles
+
+  @if not $flex
+    +foundation-grid
+  @else
+    +foundation-flex-grid
+
+  +foundation-typography
+
+  +foundation-button
+
+  +foundation-forms
+
+  +foundation-visibility-classes
+
+  +foundation-float-classes
+
+  +foundation-accordion
+
+  +foundation-accordion-menu
+
+  +foundation-badge
+
+  +foundation-breadcrumbs
+
+  +foundation-button-group
+
+  +foundation-callout
+
+  +foundation-close-button
+
+  +foundation-drilldown-menu
+
+  +foundation-dropdown
+
+  +foundation-dropdown-menu
+
+  +foundation-flex-video
+
+  +foundation-label
+
+  +foundation-media-object
+
+  +foundation-menu
+
+  +foundation-off-canvas
+
+  +foundation-orbit
+
+  +foundation-pagination
+
+  +foundation-progress-bar
+
+  +foundation-slider
+
+  +foundation-sticky
+
+  +foundation-reveal
+
+  +foundation-switch
+
+  +foundation-table
+
+  +foundation-tabs
+
+  +foundation-thumbnail
+
+  +foundation-title-bar
+
+  +foundation-tooltip
+
+  +foundation-top-bar
+
++foundation-everything
+
