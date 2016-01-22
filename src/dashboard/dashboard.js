@@ -1,12 +1,13 @@
 import {Component} from 'angular2/core';
+import {InitCapsPipe} from '../init-caps-pipe.js';
 
 @Component({
   selector: 'app',
-  templateUrl: '/static/app/dashboard/dashboard.html'
+  pipes: [InitCapsPipe],
+  templateUrl: '/dashboard/dashboard.html'
 })
 export class MyApp {
   constructor() {
-    this.bla = 'cddd';
-    this.number = 7;
+    this.message = 'hello world';
   }
 }
